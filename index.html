@@ -4,8 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lading Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hola</h1>
+    <header class="header">
+      <h1 class="header__logo">Header Logo</h1>
+
+      <ul class="header__links">
+        <li class="header__item">
+          <a href="#" class="header__link">header link one</a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">header link two</a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">header link three</a>
+        </li>
+      </ul>
+    </header>
+
+    <section class="welcome">
+      <div class="left">
+        <h1 class="welcome__title">This website is awesome</h1>
+        <p class="welcome__text">This website has some subtext that goes hare under the main title. It's a smaller font and the color is lower contrast.</p>
+        <button class="welcome__btn">Sign up</button>
+      </div>
+
+      <div class="right">
+        <img src="" alt="this is a placeholder for an image" />
+      </div>
+    </section>
+
+    <section class="info">
+      <h2 class="info__title">Some random information</h2>
+      <div class="info__cards">
+        <div class="info__card">
+          <div class="info__card-img"></div>
+          <p class="info__card-text">this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="info__card">
+          <div class="info__card-img"></div>
+          <p class="info__card-text">this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="info__card">
+          <div class="info__card-img"></div>
+          <p class="info__card-text">this is some subtext under an illustration or image</p>
+        </div>
+
+        <div class="info__card">
+          <div class="info__card-img"></div>
+          <p class="info__card-text">this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      This is an spiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know
+      is that it looks nice.
+      <span class="quote__author">-Thor, God of Thunder</span>
+    </section>
+
+    <section class="call-to-action">
+      <div class="call-to-action__card">
+        <h2 class="card__title">Call to action! It's time!</h2>
+        <p class="card__text">Sign up for our product by clicking that button right over there!</p>
+        <button class="card__btn">Sign up</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">Copyright &copy; The Odin Project 2021</p>
+    </footer>
   </body>
 </html>
